@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú Especial</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 20px;
+      font-size: 28px;
+    }
+
+    button {
+      background-color: #c00;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e60000;
+    }
+
+    #mensaje {
+      display: none;
+      max-width: 800px;
+      margin: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenido al menú especial de la noche 🍣</h1>
+  <button onclick="mostrarMensaje()">Ver Menú Especial ❤️</button>
+
+  <div id="mensaje">
+    <p>Hoy el plato más especial no está en este menú, está frente a mí. Gracias por cada mes, por cada sonrisa y por ser quien eres. Cada mes contigo es como el mejor plato del mundo: me deja con ganas de más.</p>
+    <p>Me deja con más ganas de amarte, con más ganas de verte, de conocerte, de aprender de ti.</p>
+    <p>Estoy muy agradecido con Dios por ponerte en mi camino, porque eres una mujer excepcional, única, especial, amorosa y miles de cosas más buenas que cada día me doy cuenta que tienes. Hoy en día encontrar una chica como tú es un tesoro.</p>
+    <p>Eres ese tesoro, eres mi tesoro que no quiero que nadie me lo arrebate, que lo quiero cuidar y tener para siempre, para siempre y para siempre.</p>
+    <p>Te doy las gracias por darme momentos tan lindos, por hacerme ver la vida diferente, por darme ánimo en los momentos que estoy caído, por impulsarme en las cosas que debo hacer, si todas esas cosas no te hacen la mejor novia del mundo no sé qué es entonces.</p>
+    <p>Amo crecer como pareja contigo, planear cosas, pensar en cómo salir adelante juntos, en cómo llegar a ser millonarios juntos jajaja pero sabes, creo que ya soy millonario teniéndote a ti, y teniendo este amor tan hermoso. Creo que vamos a ser millonarios entonces toda la vida. Bueno eso quiero yo.</p>
+    <p>Te amo incondicionalmente, te amo con todo mi corazón, te amo con todo mi ser, te amo demasiado.</p>
+    <p>Eres la princesa de mi corazón y siempre lo serás.</p>
+    <p><strong>Felices 2 años mi amor.</strong></p>
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      const mensaje = document.getElementById("mensaje");
+      mensaje.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
